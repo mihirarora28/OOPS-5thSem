@@ -16,6 +16,6 @@ changeVarible change(changeVarible s1){
 }
 int main(){
     changeVarible n1(10); 
-changeVarible s2 = change(n1); 
+    changeVarible s2 = change(n1); 
     cout<<s2.a;
 }

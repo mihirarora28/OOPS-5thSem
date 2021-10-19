@@ -17,7 +17,7 @@ class SecondNumber{
     }
 };
 int multiPlyNumbers(firstNumber f1, SecondNumber s1){
-    return (f1.a)*(s1.b);
+    return (f1.a)*(s1.b); 
 }
 int main(){
     firstNumber n1(4);

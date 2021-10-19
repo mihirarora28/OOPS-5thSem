@@ -5,14 +5,14 @@ class Employee
    public:  
         Employee()    
         {    
-            cout<<"Constructor Invoked"<<endl;    
+            cout<<"Constructor is Invoked"<<endl;    
         }    
-        ~Employee()    
+        ~Employee()     // destructor
         {    
-            cout<<"Destructor Invoked"<<endl;    
+            cout<<"Destructor is Invoked"<<endl;    
         }  
 };  
-int main(void)   
+int main()   
 {  
     Employee e1; //creating an object of Employee   
     Employee e2; //creating an object of Employee  
